@@ -1,0 +1,272 @@
+{
+	"name": "GTbA Principle 1: Apply Least Privilege",
+	"versions": {
+		"attack": "9",
+		"navigator": "4.2",
+		"layer": "4.2"
+	},
+	"domain": "enterprise-attack",
+	"description": "This principle consists of the following building blocks:\n- Identity Management\n- Device Management\n- Application Service Management",
+	"filters": {
+		"platforms": [
+			"Linux",
+			"macOS",
+			"Windows",
+			"Azure AD",
+			"Office 365",
+			"SaaS",
+			"IaaS",
+			"Google Workspace",
+			"PRE",
+			"Network",
+			"Containers"
+		]
+	},
+	"sorting": 0,
+	"layout": {
+		"layout": "side",
+		"showID": false,
+		"showName": true,
+		"showAggregateScores": false,
+		"countUnscored": false,
+		"aggregateFunction": "average"
+	},
+	"hideDisabled": false,
+	"techniques": [
+		{
+			"techniqueID": "T1598",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [
+				{
+					"name": "principle",
+					"value": "Apply Least Privilege"
+				},
+				{
+					"name": "coverage",
+					"value": "Partial"
+				},
+				{
+					"name": "comment",
+					"value": "This technique/sub-technique is covered by GTbA controls at a high level."
+				}
+			],
+			"color": "#4C1CC4",
+			"score_num": 0.5,
+			"score_display": "Partial"
+		},
+		{
+			"techniqueID": "T1598.002",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [
+				{
+					"name": "principle",
+					"value": "Apply Least Privilege"
+				},
+				{
+					"name": "coverage",
+					"value": "Partial"
+				},
+				{
+					"name": "comment",
+					"value": "This technique/sub-technique is covered by GTbA controls at a high level."
+				}
+			],
+			"color": "#4C1CC4",
+			"score_num": 0.5,
+			"score_display": "Partial"
+		},
+		{
+			"techniqueID": "T1598.003",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [
+				{
+					"name": "principle",
+					"value": "Apply Least Privilege"
+				},
+				{
+					"name": "coverage",
+					"value": "Partial"
+				},
+				{
+					"name": "comment",
+					"value": "This technique/sub-technique is covered by GTbA controls at a high level."
+				}
+			],
+			"color": "#4C1CC4",
+			"score_num": 0.5,
+			"score_display": "Partial"
+		},
+		{
+			"techniqueID": "T1133",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [
+				{
+					"name": "principle",
+					"value": "Apply Least Privilege"
+				},
+				{
+					"name": "coverage",
+					"value": "Partial"
+				},
+				{
+					"name": "comment",
+					"value": "This technique/sub-technique is covered by GTbA controls at a high level."
+				}
+			],
+			"color": "#FFCC84",
+			"score_num": 0.5,
+			"score_display": "Partial"
+		},
+		{
+			"techniqueID": "T1199",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [
+				{
+					"name": "principle",
+					"value": "Apply Least Privilege"
+				},
+				{
+					"name": "coverage",
+					"value": "Partial"
+				},
+				{
+					"name": "comment",
+					"value": "This technique/sub-technique is covered by GTbA controls at a high level."
+				}
+			],
+			"color": "#73D4FF",
+			"score_num": 0.5,
+			"score_display": "Partial"
+		},
+		{
+			"techniqueID": "T1189",
+			"enabled": true,
+			"showSubtechniques": false,
+			"metadata": [
+				{
+					"name": "principle",
+					"value": "Apply Least Privilege"
+				},
+				{
+					"name": "coverage",
+					"value": "Partial"
+				},
+				{
+					"name": "comment",
+					"value": "This technique/sub-technique is covered by GTbA controls at a high level."
+				}
+			],
+			"color": "#320000",
+			"score_num": 0.5,
+			"score_display": "Partial"
+		}
+	],
+	"legendItems": [
+		{
+			"label": "Principle 1 - Minimal",
+			"color": "#BF8FFF"
+		},
+		{
+			"label": "Principle 1 - Partial",
+			"color": "#9969FF"
+		},
+		{
+			"label": "Principle 1 - Substantial",
+			"color": "#7242EA"
+		},
+		{
+			"label": "Principle 1 - Significant",
+			"color": "#4C1CC4"
+		},
+		{
+			"label": "Principle 2 - Minimal",
+			"color": "#73D4FF"
+		},
+		{
+			"label": "Principle 2 - Partial",
+			"color": "#4DAEFC"
+		},
+		{
+			"label": "Principle 2 - Substantial",
+			"color": "#2687D5"
+		},
+		{
+			"label": "Principle 2 - Significant",
+			"color": "#0061AF"
+		},
+		{
+			"label": "Principle 3 - Minimal",
+			"color": "#FFCC84"
+		},
+		{
+			"label": "Principle 3 - Partial",
+			"color": "#FFA65E"
+		},
+		{
+			"label": "Principle 3 - Substantial",
+			"color": "#EA7F37"
+		},
+		{
+			"label": "Principle 3 - Significant",
+			"color": "#C45911"
+		},
+		{
+			"label": "Principle 4 - Minimal",
+			"color": "#FF91FF"
+		},
+		{
+			"label": "Principle 4 - Partial",
+			"color": "#FF6BDB"
+		},
+		{
+			"label": "Principle 4 - Substantial",
+			"color": "#DA44B4"
+		},
+		{
+			"label": "Principle 4 - Significant",
+			"color": "#B41E8E"
+		},
+		{
+			"label": "Principle 5 - Minimal",
+			"color": "#73FFC1"
+		},
+		{
+			"label": "Principle 5 - Partial",
+			"color": "#4DDB9B"
+		},
+		{
+			"label": "Principle 5 - Substantial",
+			"color": "#26B474"
+		},
+		{
+			"label": "Principle 5 - Significant",
+			"color": "#008E4E"
+		},
+		{
+			"label": "Combination - Minimal",
+			"color": "#A57373"
+		},
+		{
+			"label": "Combination - Partial",
+			"color": "#7F4D4D"
+		},
+		{
+			"label": "Combination - Substantial",
+			"color": "#582626"
+		},
+		{
+			"label": "Combination - Significant",
+			"color": "#320000"
+		}
+	],
+	"metadata": [],
+	"showTacticRowBackground": false,
+	"tacticRowBackground": "#dddddd",
+	"selectTechniquesAcrossTactics": true,
+	"selectSubtechniquesWithParent": false
+}
