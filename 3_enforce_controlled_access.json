@@ -1,12 +1,12 @@
 {
-	"name": "GTbA Principle 1: Apply Least Privilege",
+	"name": "GTbA Principle 3: Enforce Controlled Access",
 	"versions": {
 		"attack": "9",
 		"navigator": "4.2",
 		"layer": "4.2"
 	},
 	"domain": "enterprise-attack",
-	"description": "This principle consists of the following building blocks:\n- Identity Management\n- Device Management\n- Application Service Management",
+	"description": "This principle consists of the following building blocks:\n- Policy Enforcement Point\n- Dynamic Access Policy",
 	"filters": {
 		"platforms": [
 			"Linux",
@@ -34,7 +34,7 @@
 	"hideDisabled": false,
 	"techniques": [
 		{
-			"techniqueID": "T1189",
+			"techniqueID": "T1598",
 			"enabled": true,
 			"showSubtechniques": false,
 			"metadata": [
@@ -148,10 +148,7 @@
 			"enabled": true,
 			"showSubtechniques": false,
 			"metadata": [
-				{
-					"name": "principle",
-					"value": "Apply Least Privilege"
-				},
+				{"name": "principle", "value": "Apply Least Privilege"},
 				{
 					"name": "coverage",
 					"value": "Partial"
@@ -168,20 +165,20 @@
 	],
 	"legendItems": [
 		{
-			"label": "Principle 1 - Minimal",
-			"color": "#BF8FFF"
+			"label": "Principle 3 - Minimal",
+			"color": "#FFCC84"
 		},
 		{
-			"label": "Principle 1 - Partial",
-			"color": "#9969FF"
+			"label": "Principle 3 - Partial",
+			"color": "#FFA65E"
 		},
 		{
-			"label": "Principle 1 - Substantial",
-			"color": "#7242EA"
+			"label": "Principle 3 - Substantial",
+			"color": "#EA7F37"
 		},
 		{
-			"label": "Principle 1 - Significant",
-			"color": "#4C1CC4"
+			"label": "Principle 3 - Significant",
+			"color": "#C45911"
 		}
 	],
 	"metadata": [],
