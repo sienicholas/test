@@ -155,7 +155,7 @@
 				{"name":"coverage", "value":"full"},
 				{"divider":true},
 				{"name":"mitigation", "value":"M1021"},
-				{"name":"principle(s)", "value":"Apply Least Privilege, Enforce Controlled Access"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
 				{"name":"coverage", "value":"high level"}
 			]
 		},
@@ -177,7 +177,7 @@
 				{"name":"coverage", "value":"full"},
 				{"divider":true},
 				{"name":"mitigation", "value":"M1021"},
-				{"name":"principle(s)", "value":"Apply Least Privilege, Enforce Controlled Access"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
 				{"name":"coverage", "value":"high level"}
 			]
 		},
@@ -185,13 +185,13 @@
 			"techniqueID": "T1566.002",
 			"enabled": true,
 			"showSubtechniques": false,
-			"color":"#7F4D4D",
+			"color":"#9969FF",
 			"metadata": [
-				{"name":"overall principle", "value":"combination"},
+				{"name":"overall principle", "value":"Apply Least Privilege"},
 				{"name":"overall coverage", "value":"Partial"},
 				{"divider":true},
 				{"name":"mitigation", "value":"M1021"},
-				{"name":"principle(s)", "value":"Apply Least Privilege, Enforce Controlled Access"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
 				{"name":"coverage", "value":"high level"}
 			]
 		},
@@ -199,9 +199,9 @@
 			"techniqueID": "T1566.003",
 			"enabled": true,
 			"showSubtechniques": false,
-			"color":"#582626",
+			"color":"#7242EA",
 			"metadata": [
-				{"name":"overall principle", "value":"combination"},
+				{"name":"overall principle", "value":"Apply Least Privilege"},
 				{"name":"overall coverage", "value":"Substantial"},
 				{"divider":true},
 				{"name":"mitigation", "value":"M1049"},
@@ -209,7 +209,7 @@
 				{"name":"coverage", "value":"full"},
 				{"divider":true},
 				{"name":"mitigation", "value":"M1021"},
-				{"name":"principle(s)", "value":"Apply Least Privilege, Enforce Controlled Access"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
 				{"name":"coverage", "value":"high level"}
 			]
 		},
@@ -1067,7 +1067,7 @@
 				{"name":"coverage", "value":"full"},
 				{"divider":true},
 				{"name":"mitigation", "value":"M1021"},
-				{"name":"principle(s)", "value":"Apply Least Privilege, Enforce Controlled Access"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
 				{"name":"coverage", "value":"high level"}
 			]
 		},
@@ -1085,7 +1085,7 @@
 				{"name":"coverage", "value":"full"},
 				{"divider":true},
 				{"name":"mitigation", "value":"M1021"},
-				{"name":"principle(s)", "value":"Apply Least Privilege, Enforce Controlled Access"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
 				{"name":"coverage", "value":"high level"}
 			]
 		},
@@ -3898,6 +3898,392 @@
 				{"divider":true},
 				{"name":"mitigation", "value":"M1049"},
 				{"name":"principle(s)", "value":"Apply Least Privilege, Enhance Situation Awareness"},
+				{"name":"coverage", "value":"full"}
+			]
+		},
+		{
+			"techniqueID": "T1218",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#4C1CC4",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Significant"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1042"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"full"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"full"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1050"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1026"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"full"}
+			]
+		},
+		{
+			"techniqueID": "T1218.001",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1021"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1218.002",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1022"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1218.003",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1042"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1218.004",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1042"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1218.005",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1042"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1218.007",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1042"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1026"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1218.008",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1042"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1218.009",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1042"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1218.010",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1050"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1218.011",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1050"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1218.012",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1042"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1037"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1216",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#4C1CC4",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Significant"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"full"}
+			]
+		},
+		{
+			"techniqueID": "T1216.001",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#4C1CC4",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Significant"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"full"}
+			]
+		},
+		{
+			"techniqueID": "T1553",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#7242EA",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Substantial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"full"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1028"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1024"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1054"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1553.001",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#4C1CC4",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Significant"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"full"}
+			]
+		},
+		{
+			"techniqueID": "T1553.003",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1022"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1024"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1553.004",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1028"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1054"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1553.005",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1553.006",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#7242EA",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Substantial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1046"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1026"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"full"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1024"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1221",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#320000",
+			"metadata": [
+				{"name":"overall principle", "value":"combination"},
+				{"name":"overall coverage", "value":"Significant"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1049"},
+				{"name":"principle(s)", "value":"Apply Least Privilege, Limit Lateral Movement"},
+				{"name":"coverage", "value":"full"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1042"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1031"},
+				{"name":"principle(s)", "value":"Apply Least Privilege, Limit Lateral Movement"},
 				{"name":"coverage", "value":"full"}
 			]
 		}
