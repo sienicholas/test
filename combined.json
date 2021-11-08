@@ -6,7 +6,7 @@
 		"layer": "4.2"
 	},
 	"domain": "enterprise-attack",
-	"description": "Applicable mitigations found in each technique below have been mapped to GTbA principles and their constituent controls.",
+	"description": "Mitigations found in each technique below have been mapped to GTbA principles and their constituent controls.",
 	"filters": {
 		"platforms": [
 			"Linux",
