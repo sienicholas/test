@@ -1,7 +1,7 @@
 {
 	"name": "Mappings to GTbA Controls",
 	"versions": {
-		"attack": "9",
+		"attack": "10",
 		"navigator": "4.2",
 		"layer": "4.2"
 	},
@@ -2616,6 +2616,32 @@
 			]
 		},
 		{
+			"techniqueID": "T1505.004",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#582626",
+			"metadata": [
+				{"name":"overall principle", "value":"combination"},
+				{"name":"overall coverage", "value":"Substantial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1047"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1045"},
+				{"name":"principle(s)", "value":"Optimise with Automation & Orchestration"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1026"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"full"}
+			]
+		},
+		{
 			"techniqueID": "T1205",
 			"enabled": true,
 			"showSubtechniques": false,
@@ -3310,6 +3336,20 @@
 			]
 		},
 		{
+			"techniqueID": "T1564.009",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#FF6BDB",
+			"metadata": [
+				{"name":"overall principle", "value":"Optimise with Automation & Orchestration"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1013"},
+				{"name":"principle(s)", "value":"Optimise with Automation & Orchestration"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
 			"techniqueID": "T1562",
 			"enabled": true,
 			"showSubtechniques": false,
@@ -3470,6 +3510,38 @@
 			]
 		},
 		{
+			"techniqueID": "T1562.009",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1026"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1054"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1562.010",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1042"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
 			"techniqueID": "T1070",
 			"enabled": true,
 			"showSubtechniques": false,
@@ -3623,6 +3695,20 @@
 				{"name":"mitigation", "value":"M1022"},
 				{"name":"principle(s)", "value":"Apply Least Privilege"},
 				{"name":"coverage", "value":"full"}
+			]
+		},
+		{
+			"techniqueID": "T1036.007",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#BF8FFF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Minimal"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1028"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
 			]
 		},
 		{
@@ -4117,6 +4203,42 @@
 				{"name":"coverage", "value":"high level"},
 				{"divider":true},
 				{"name":"mitigation", "value":"M1037"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1218.013",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1042"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
+			"techniqueID": "T1218.014",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1042"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1038"},
 				{"name":"principle(s)", "value":"Apply Least Privilege"},
 				{"name":"coverage", "value":"high level"}
 			]
@@ -5512,6 +5634,20 @@
 			]
 		},
 		{
+			"techniqueID": "T1619",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#9969FF",
+			"metadata": [
+				{"name":"overall principle", "value":"Apply Least Privilege"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1018"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"}
+			]
+		},
+		{
 			"techniqueID": "T1613",
 			"enabled": true,
 			"showSubtechniques": false,
@@ -6183,6 +6319,28 @@
 				{"name":"overall coverage", "value":"Partial"},
 				{"divider":true},
 				{"name":"mitigation", "value":"M1047"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1018"},
+				{"name":"principle(s)", "value":"Apply Least Privilege, Enforce Controlled Access"},
+				{"name":"coverage", "value":"full"}
+			]
+		},
+		{
+			"techniqueID": "T1213.003",
+			"enabled": true,
+			"showSubtechniques": false,
+			"color":"#7F4D4D",
+			"metadata": [
+				{"name":"overall principle", "value":"combination"},
+				{"name":"overall coverage", "value":"Partial"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1047"},
+				{"name":"principle(s)", "value":"Apply Least Privilege"},
+				{"name":"coverage", "value":"high level"},
+				{"divider":true},
+				{"name":"mitigation", "value":"M1032"},
 				{"name":"principle(s)", "value":"Apply Least Privilege"},
 				{"name":"coverage", "value":"high level"},
 				{"divider":true},
