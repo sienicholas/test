@@ -2,8 +2,8 @@
 	"name": "Mappings to GTbA Controls",
 	"versions": {
 		"attack": "10",
-		"navigator": "4.2",
-		"layer": "4.2"
+		"navigator": "4.3",
+		"layer": "4.3"
 	},
 	"domain": "enterprise-attack",
 	"description": "Mitigations found in each technique below have been mapped to GTbA principles and their constituent controls.",
